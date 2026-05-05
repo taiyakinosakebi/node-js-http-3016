@@ -3,7 +3,6 @@ const http = require('node:http');
 const pug = require('pug');
 const server = http
   .createServer((req, res) => {
-    const now = new Date();
     res.writeHead(200, {
       'Content-Type': 'text/html; charset=utf-8'
     });
